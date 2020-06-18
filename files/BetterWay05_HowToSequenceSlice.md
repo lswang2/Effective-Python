@@ -18,7 +18,7 @@
 a = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',]
 
 print('First four', a[:4])      # 1.
-print('Last four', a[:-4])      # 2.
+print('Last four', a[-4:])      # 2.
 print('Middle two', a[3:-3])    # 3.
 
 
